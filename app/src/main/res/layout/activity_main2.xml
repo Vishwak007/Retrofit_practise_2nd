@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cont"
+        android:layout_height="106dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:elevation="4dp"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/new_menu"
+            app:itemActiveIndicatorStyle="@style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator"
+            android:id="@+id/btm_nav">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/moon"
+            android:layout_marginLeft="7dp"
+            android:elevation="6dp"
+            app:tint="#8A0230"
+            android:src="@drawable/img_moon"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
